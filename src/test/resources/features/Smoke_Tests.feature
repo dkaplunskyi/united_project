@@ -1,8 +1,5 @@
 Feature: Smoke Tests
 
-  Verify app is loaded with a main search window with following tabs:
-  stays,flights,cars packages, things to do, cruise
-@test
   Scenario: Verify app is loaded with a main search window with following tabs: Book, Flight status, Check-in, My trips
     When page is loaded verify following tabs are present
 
