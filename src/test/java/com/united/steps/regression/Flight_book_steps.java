@@ -62,7 +62,7 @@ public class Flight_book_steps {
     }
 
     @Then("add one passenger in every single passenger type")
-    public void add_one_passenger_in_every_single_passenger_type()  {
+    public void add_one_passenger_in_every_single_passenger_type() {
         Flight_subtab flightbook_tab = new Flight_subtab();
         for (int i = 1; i < flightbook_tab.getPlus_sighs().size(); i++) {
             flightbook_tab.getPlus_sighs().get(i).click();
@@ -79,7 +79,7 @@ public class Flight_book_steps {
     }
 
     @Given("fill out Origin text field input")
-    public void fill_out_From_text_field_input() throws InterruptedException {
+    public void fill_out_From_text_field_input() {
         Flight_subtab flightbook_tab = new Flight_subtab();
         Common.waitUntilVisibility(flightbook_tab.getOrigin_input());
         flightbook_tab.getOrigin_input().click();
