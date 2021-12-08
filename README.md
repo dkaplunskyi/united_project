@@ -29,4 +29,4 @@ Total number of test cases: 49
 
 See below graphical tests report which was created by Allure reporting tool.
 
-<img width="802" alt="Screen Shot 2021-12-08 at 2 16 17 PM" src="https://user-images.githubusercontent.com/16087883/145284026-6a2e499e-c417-4c32-96f2-774c9ea67b69.png">
+<img width="805" alt="Screen Shot 2021-12-08 at 4 27 57 PM" src="https://user-images.githubusercontent.com/16087883/145287059-51ea38c7-b336-4022-9e96-9e6884546457.png">
