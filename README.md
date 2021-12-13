@@ -22,6 +22,11 @@ Here is a sample of the smoke feature file with test steps:
 
 <img width="764" alt="Screen Shot 2021-12-08 at 3 29 51 PM" src="https://user-images.githubusercontent.com/16087883/145279787-469ebf3e-bffa-426f-87ff-9ac3a2012122.png">
 
+The project includes the Runner class which can be used to run either one single feature or multiple feature files.
+In the sample below you can find the option how to run all features files.
+
+<img width="981" alt="Screen Shot 2021-12-08 at 5 43 38 PM" src="https://user-images.githubusercontent.com/16087883/145307927-e1ed3858-5e3f-45f0-ae56-be13a7c5696a.png">
+
 Total number of test cases: 49
   - smoke test cases: 4
   - sanity test cases: 5
@@ -30,3 +35,6 @@ Total number of test cases: 49
 See below graphical tests report which was created by Allure reporting tool.
 
 <img width="805" alt="Screen Shot 2021-12-08 at 4 27 57 PM" src="https://user-images.githubusercontent.com/16087883/145287059-51ea38c7-b336-4022-9e96-9e6884546457.png">
+
+
+
