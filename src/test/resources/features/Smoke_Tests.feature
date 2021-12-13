@@ -16,7 +16,7 @@ Feature: Smoke Tests
     Then choose Jan 15 date
     And click Search button
     Then verify that the flights info are displayed
-
+@test
   Scenario: User checks out 3 round trip flight tickets: 2 adults, 1 infant for the date of Feb 15, 2022
     Given select Roundtrip radio button
     When fill out Origin text field
