@@ -2,6 +2,7 @@ package com.united.page_elements.travel_panel_elements;
 
 import com.united.base.Hooks;
 import com.united.page_elements.travel_panel_elements.book_tab.Flight_subtab;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -99,6 +100,7 @@ public class Flights_Status_tab {
     }
 
     public void fillout_form(){
+
         origin_input.sendKeys("Washington");
         originInput_menu_li_list.get(0).click();
 

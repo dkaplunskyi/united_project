@@ -10,7 +10,7 @@ import java.util.List;
 public class Main_travel_section {
 
 
-    @FindBy(xpath = "//*[@id='app']/div/div/div/div[2]/div[5]/main/section/div/div/div[1]/div/div/div[2]/ul/li")
+    @FindBy(xpath = "//*[@id=\"app\"]/div/div/div/div[2]/div[5]/div/div/div[1]/div/main/section/div/div/div[1]/div/div/div[2]/ul/li")
     private List<WebElement> tabs_elements;
 
     @FindBy(css = "#statusTab")
