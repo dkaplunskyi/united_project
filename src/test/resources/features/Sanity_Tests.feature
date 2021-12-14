@@ -10,6 +10,7 @@ Feature: Sanity Tests
     And click Ändern button
     Then verify that the language change to Deutsch
 
+  @test
   Scenario: Footer links should not be broken
     Then find all links and veify each link has href attribute
 
