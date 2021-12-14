@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.united.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.264 sec <<< FAILURE!
+runScenario(com.united.TestRunner)  Time elapsed: 15.862 sec  <<< FAILURE!
+java.lang.AssertionError: expected [4] but found [0]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at com.united.steps.Smoke_Tests.page_is_loaded_verify_following_tabs_are_present(Smoke_Tests.java:14)
+	at ✽.page is loaded verify following tabs are present(file:///Users/dkaplunskyi/IdeaProjects/united/src/test/resources/features/Smoke_Tests.feature:5)
+

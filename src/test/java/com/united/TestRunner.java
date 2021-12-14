@@ -10,5 +10,5 @@ import io.cucumber.testng.CucumberOptions;
         tags = "@test"
 )
 
-public class Runner extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests {
 }
